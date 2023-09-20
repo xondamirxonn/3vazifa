@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+ 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Josefin+Sans:ital,wght@1,100&family=Permanent+Marker&family=Poppins:wght@200;400;500;600&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+
+
+  <title>Salon</title>
+
+  <style>
+      .loading-gif {
+            max-width: 1200px;
+            margin-right: 10rem;
+        }
+
+        .pre-loader {
+            position: fixed;
+            z-index: 100; /** make sure this is the highest value compared to all other divs **/
+            top: 0;
+            left: 0;
+            background: #fff;
+           opacity: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+
+        .loading-text{
+          position: relative;
+          left: 29rem;
+          top: 10rem;
+          font-family: cursive;
+        }
+
+        .texts{
+          font-family: cursive;
+          display: flex;
+          gap: 20px;
+        position: absolute;
+        left: 44rem;
+       
+     
+        }
+
+        .loading-text-1{
+        animation: text-1 .5s both ;
+        opacity: 1;
+
+        
+        }
+
+        @keyframes text-1 {
+          0%{
+            opacity: 1;
+          }
+
+          
+
+          100%{
+            opacity: 0;
+          }
+          
+        }
+
+        .loading-text-2{
+        animation: text-1 1.5s both ;
+        opacity: 1;
+        
+        }
+
+        @keyframes text-2 {
+          0%{
+            opacity: 1;
+          }
+
+         
+
+          100%{
+            opacity: 0;
+          }
+          
+        }
+
+        .loading-text-3{
+        animation: text-1 2.4s both;
+        opacity: 0.5;
+        
+        }
+
+        @keyframes text-3 {
+          0%{
+            opacity: 1;
+          }
+
+        
+          100%{
+            opacity: 0;
+          }
+          
+        }
+
+        .pre-loader.hidden {
+            animation: fadeOut 2.3s; /** change to 1s */
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeOut {
+            100% {
+                opacity: .7;
+                visibility: hidden;
+            }
+        }
+    </style>
+  </style>
+</head>
+<body>
+  <div class="container">
+
+
+  <header>
+      <div class="header-bg-img">
+
+  <div class="header-flex">
+
+       <a class="header-logo" href="#"><img src="./images/header-logo.svg" alt=""></a>
+        <ul class="header-ul">
+         
+          <li><a class="header-li" href="#">Home</a></li>
+          <li><a class="header-li" href="#">About us</a></li>
+          <li><a class="header-li"href="#">Services</a></li>
+          <li><a class="header-li"href="#">Contact</a></li>
+          <li><a class="header-button" href="">Book Now</a></li>
+        </ul>
+        </div>
+
+        <div class="asosiy">
+        <div class="header-h4">
+          <h4>Welcome To Choppers</h4>
+
+          <div class="header-h1">Best Hair Salon For  A  Professional Look</div>
+
+          <div class="header-p">
+            Choppers offers high performance <br> customized facials to provide you <br> with visible results.
+          </div>
+
+             <div class="header-buttons">
+          <a href="#" class="header-button-1">Book Now</a>
+        </div>
+
+        <a href="#" class="header-button-2">All Services</a>
+
+        </div>
+      
+
+       
+          
+
+          <div class="header-humans">
+          
+          </div>
+        
+
+          </div>
+
+        
+    </header>
+
+<div class='pre-loader'>
+  <h2 class="loading-text">Kutib Turing</h2>
+  <div class="texts">
+  
+  <h2 class="loading-text-1">1</h2>
+  <h2 class="loading-text-2">2</h2>
+  <h2 class="loading-text-3">3</h2>
+  </div>
+    <img class='loading-gif' alt='loading' src="https://www.swanseanumberplates.com/cdn/shop/t/7/assets/loading.gif?v=157493769327766696621655804397"/>
+
+    
+</div>
+    <section data-aos-duration="500" data-aos="zoom-in-up" >
+
+      <div class="section-flex">
+<div  class="section-img">
+  <img src="./images/section-img.svg" alt="rasm bor">
+
+  <div  class="section-img-2">
+  <img src="./images/section-img-2.svg" alt="">
+</div>
+
+<div class="section-bg-color">
+<div class="section-img-3">
+  <img src="./images/section-img-3.svg" alt="">
+
+
+</div>
+</div>
+</div>
+
+
+<div class="section-h5">
+  <h5>About us</h5>
+<div class="section-bg-text">
+  <h3>ABOUT</h3>
+</div>
+  <div class="section-h2">
+    <h2>Best Haircut Salon 
+     <br> <br>  For Men</h2>
+  </div>
+  <div class="section-p">
+  <p>Let your hairdressers do their amazing job. Trim the <br>hair to get your desired look. Book appointment with <br> us for your favorite hair Styles!</p>
+</div>
+
+<div class="section-button">
+  <button >Read More</button>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+    </section>
+
+    <aside>
+      <div class="aside-bg-img">
+        <div class="aside-flex">
+     <div class="aside-h5">
+      <h5>Book Now</h5>
+      <div class="aside-h3">
+        <h3>Book your Appointment <br> Online.</h3>
+      </div>
+
+      <div class="aside-p">
+        <p>Get 10% Discount on your first hair <br> cut by using our website.</p>
+      </div>
+
+      <a class="aside-a" href="">Book Appointment</a>
+     </div>
+
+     <div class="aside-bg-color">
+      <div class="aside-circle">
+        <div class="aside-phone">
+         <img src="images/aside-phone.png" alt="">
+        </div>
+
+        
+      </div>
+      <div class="aside-bg-p">
+      <p>Call Now</p>
+
+      <div class="aside-number">
+       <a class="aside-number" href="tel:03007715325">0300 7715325</a> 
+      </div>
+     </div>
+     </div>
+
+     
+     </div>
+
+
+      </div>
+
+    
+    </aside>
+
+    <article>
+<div class="article-bg-color">
+  <div class="article-flex">
+  <div class="article-img">
+    <img src="images/article-img.png" alt="">
+  </div>
+
+  <div class="article-h3">
+    <h3>WORKING DAYS</h3>
+
+    <div class="article-p">
+    <p>We are open on all six days in a week</p>
+
+    <div class="article-h4">
+      <h4>MONDAY </h4>
+
+ 
+    </div>
+    
+           <p class="article-text">9Am to 10pm</p>
+
+    <div class="article-h4-2">
+      <h4>FRIDAY</h4>
+      
+    </div>
+     <p class="article-text">9Am to 10pm</p>
+
+     <div class="article-a">
+   <a class="article-link" href="">Book Now</a>
+   </div>
+  </div>
+
+  </div>
+
+
+  </div>
+   
+</div>
+
+    </article>
+
+    <main data-aos="fade-up"
+     data-aos-duration="1000">>
+     
+<div class="main-h5">
+  <h5>Testimonials</h5>
+    <div class="main-text-head">
+        <h5>TESTIMONIALS</h5>
+      </div>
+
+
+  
+
+  <div class="main-h3">
+    <h3>What Our Clients  <br> Say About Us</h3>
+  </div>
+  
+
+  <div class="main-p">
+    <p>Let your hairdressers do their amazing job. Trim the <br> hair to get your desired look. Book appointment with <br> us for your favorite hair Styles!</p>
+  </div>
+
+  <div class="main-a">
+    <a class="main-link" href="#">Give Reviews</a>
+  </div>
+</div>
+
+<div class="main-bg-color">
+<img class="main-img" src="images/main-person.png" alt="">
+<div class="sign">
+    
+  </div>
+<div class="main-img-p">
+  <p>It was an amazing experience to get <br> services from the best in its profession <br> Absolutly Enjoyed Every SEcond of it</p>
+</div>
+
+<div class="main-stars">
+  <img src="images/main-stars.svg" alt="stars">
+</div>
+
+<div class="main-img-h5">
+  <h5>Umar Usman</h5>
+</div>
+
+<div class="main-foot-p">
+  <p>Regular User</p>
+</div>
+</div>
+
+<div class="main-bg-color">
+<img class="main-img" src="images/main-women.svg" alt="">
+ <div class="sign">
+    
+  </div>
+<div class="main-img-p">
+  <p>It was an amazing experience to get <br> services from the best in its profession <br> Absolutly Enjoyed Every SEcond of it</p>
+
+</div>
+
+ 
+
+<div class="main-stars">
+  <img src="images/main-stars-2.svg" alt="stars">
+</div>
+
+<div class="main-img-h5">
+  <h5>Rabia Khalil</h5>
+</div>
+
+<div class="main-foot-p">
+  <p>Regular User</p>
+</div>
+</div>
+
+<div class="main-back">
+
+</div>
+
+
+    </main>
+
+      <nav>
+      <div class="nav-bg-png">
+    <div class="nav-h5">
+      <h5>Affiliate</h5>
+      <div class="nav-h3">
+        <h3>Join Us Become a part of Us by <br> becoming an affiliate</h3>
+      </div>
+
+      <div class="nav-a">
+        <a class="nav-link" href="#">Partner Program</a>
+      </div>  
+    </div>
+    
+      </div>
+      </nav>
+
+      <footer>
+        <ul class="foot-ul">
+          <li><a class="footer-logo" href="#"><img src="images/header-logo.svg" alt=""></a></li>
+          
+          <li><a class="footer-li" href="#">Ready to get started?</a></li>
+          <li><a class="footer-li-button" href="#">Get started</a></li>
+        </ul>
+
+        <div class="footer-text">
+          <h3>Subscribe to our <br> new</h3>
+<form action="">
+          <input class="email" type="email" placeholder="Email  Address" required>
+       <button class="submit" type="submit">   <i class="fa-solid fa-chevron-right" style="color: #fff;"></i></button>
+       </form>
+
+       <div class="footer-service">
+          
+         <a class=" footer-services" href="">Services</a>
+         <a class="footer-1" href="">Email Marketing</a>
+         <a class="footer-1" href="">Campaigns</a>
+         <a class="footer-1" href="">Branding</a>
+         <a class="footer-1" href="">Offline</a>
+          
+        </div>
+
+           <div class="footer-service">
+          <div class="foot-2">
+         <a class=" footer-about" href="">About</a>
+         <a class="footer-2" href="">Our Story</a>
+         <a class="footer-2" href="">Benefits</a>
+         <a class="footer-2" href="">Team</a>
+         <a class="footer-2" href="">Careers</a>
+          </div>
+        </div>
+
+          <div class="footer-service">
+          <div class="foot-3">
+         <a class=" footer-help" href="">Help</a>
+         <a class="footer-3" href="">FAQs</a>
+         <a class="footer-3" href="">Contact Us</a>
+       
+          </div>
+        </div>
+
+        <div class="footer-4">
+          <a href="">Terms & Conditions</a>
+          <a href="">Privacy Policy</a>
+       
+         
+        <div class="footer-icon">
+        <a href=""><i class="fa-brands fa-facebook-f "></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+         </div>
+        </div>
+
+        
+      </footer>
+    
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+  AOS.init();
+</script>
+
+<script type='text/javascript'>
+    window.addEventListener('load', function () {
+        document.querySelector('.pre-loader').className += ' hidden';
+    });
+</script>
+</body>
+</html>
